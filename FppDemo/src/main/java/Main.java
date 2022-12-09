@@ -1,11 +1,14 @@
-import java.time.LocalDate;
-import java.util.*;
-import java.util.stream.Collectors;
+import linked.HackerRank;
+import linked.LeetCode;
+
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Main {
     private int data = 10;
     public static void main(String[] args) {
         LeetCode lcd = new LeetCode();
+
         /*System.out.println(lcd.removeDuplicates(new int}}{0,0,1,1,2,2,2}));
 
         System.out.println(Arrays.toString(lcd.rotateArray(new int'}}{1,2,3,4,5,6,7},3)));
@@ -45,10 +48,22 @@ public class Main {
                         , {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
 //        System.out.println(lcd.isValidSudoku(board));
 //        System.out.println(lcd.reverse(-123));
-        System.out.println(lcd.firstUniqChar("abb"));
-        System.out.println(lcd.isAnagram("car","rat"));
-        System.out.println(lcd.isPalindrome("0P"));
-        System.out.println(lcd.myAtoi("9223372036854775808"));
+//        System.out.println(lcd.firstUniqChar("abb"));
+//        System.out.println(lcd.isAnagram("car","rat"));
+//        System.out.println(lcd.isPalindrome("0P"));
+//        System.out.println(lcd.myAtoi("9223372036854775808"));
+          System.out.println(lcd.strStr2("leetcode","leet"));
+          System.out.println(lcd.longestCommonPrefix(new String[]{"flower","flow","flight"}));
+          lcd.plusMinus(Arrays.asList(1,2,3,0,0,-4,-4));
+          lcd.miniMaxSum(Arrays.asList(1,2,3,4,5));
+          System.out.println(HackerRank.timeConversion("04:05:45AM"));
+          System.out.println(HackerRank.lonelyinteger((Arrays.asList(1,2,1,2,5))));
+          System.out.println(HackerRank.diagonalDifference(Arrays.asList(Arrays.asList(1,2,3,4,5),Arrays.asList(6,7,8,9,10),Arrays.asList(11,12,13,14,15)
+          ,Arrays.asList(16,17,18,19,20),Arrays.asList(21,22,23,24,25))));
+          System.out.println(HackerRank.caesarCipher("ABCTYZb A",7));
+          System.out.println(HackerRank.anagram("fdhlvosfpafhalll"));
+          System.out.println(HackerRank.groupAnagrams2(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
+          System.out.println(HackerRank.queryAnagram(new String[]{"duel","speed", "dule", "cars"},new String[]{"spede","dlue"}));
 
     }
 
